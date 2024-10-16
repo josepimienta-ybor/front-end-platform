@@ -2,10 +2,15 @@
   "name": "@ybor-front-end-ecosystem/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "docs": "nx serve docs"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.4.0",
+    "@docusaurus/tsconfig": "3.4.0",
+    "@docusaurus/types": "3.4.0",
+    "@nx-extend/docusaurus": "^3.0.0",
     "@nx/js": "20.0.1",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
@@ -14,5 +19,14 @@
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
     "typescript": "~5.5.2"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.4.0",
+    "@docusaurus/preset-classic": "3.4.0",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }

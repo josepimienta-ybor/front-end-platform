@@ -1,0 +1,62 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.renderFinalNewline": "on",
+  "files.insertFinalNewline": true,
+  "typescript.validate.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json"
+  ],
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "splitted",
+    "zeplin"
+  ],
+  "i18n-ally.localesPaths": [
+    "libs/i18n",
+    "apps/docs/docs/packages/i18n",
+    "libs/tools/next/src/generators/cms/files/__fileName__/src/i18n",
+    "libs/tools/next/src/generators/application/files/__fileName__/src/i18n",
+    "libs/tools/next/src/generators/cms/files/__fileName__/src/i18n/locales",
+    "libs/tools/react/src/generators/application/files/__fileName__/src/commons/locales",
+    "libs/tools/next/src/generators/application/files/__fileName__/src/i18n/locales"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#0e44ff",
+    "activityBar.background": "#0e44ff",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#600015",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#0e44ff",
+    "statusBar.background": "#0031da",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#0e44ff",
+    "statusBarItem.remoteBackground": "#0031da",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#0031da",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0031da99",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "activityBar.activeBorder": "#35f9b2",
+    "badge.background": "#35f9b2",
+    "badge.foreground": "#051C7C"
+  },
+  "peacock.color": "#0031DA"
+}
